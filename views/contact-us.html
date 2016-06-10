@@ -1,0 +1,625 @@
+﻿<html lang="en" dir="ltr" class="js">
+ <head>
+  <script type="text/javascript" src="http://bam.nr-data.net/1/53b54da116?a=5775067&amp;v=918.2e0ff1d&amp;to=ZwRSZUBUCkJTBkVfW15OcVJGXAtfHRVQUVFvDFFfU1IBQ20LXlJRbxdZVEVqFFBVAA%3D%3D&amp;rst=28165&amp;ap=19036&amp;be=21279&amp;fe=6773&amp;dc=4050&amp;f=%5B%22err%22,%22xhr%22,%22stn%22,%22ins%22%5D&amp;perf=%7B%22timing%22:%7B%22of%22:1465548365642,%22n%22:0,%22u%22:21028,%22ue%22:21028,%22dl%22:21047,%22di%22:25328,%22ds%22:25328,%22de%22:25447,%22dc%22:28051,%22l%22:28051,%22le%22:28059,%22f%22:0,%22dn%22:0,%22dne%22:0,%22c%22:0,%22ce%22:0,%22rq%22:7,%22rp%22:21025,%22rpe%22:21475%7D,%22navigation%22:%7B%7D%7D&amp;at=S0NREwhOGUw%3D&amp;jsonp=NREUM.setToken"></script>
+  <script src="http://js-agent.newrelic.com/nr-918.min.js"></script>
+  <script src="http://nexus.ensighten.com/scholastic/prod/serverComponent.php?r=0.8852618850419658&amp;ClientID=809&amp;PageID=http%3A%2F%2Fnorth-asia.scholastic.com%2Fen%2Fliteracy-pro-library%2Fcontact-us"></script> 
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <script async="" src="http://b.scorecardresearch.com/beacon.js"></script>
+  <script type="text/javascript" async="" src="http://www.google-analytics.com/ga.js"></script>
+  <script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"XAABUVRUGwYHU1RSAQY="};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o||e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(t,e,n){function r(t){try{s.console&&console.log(t)}catch(e){}}var o,i=t("ee"),a=t(14),s={};try{o=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(s.console=!0,-1!==o.indexOf("dev")&&(s.dev=!0),-1!==o.indexOf("nr_dev")&&(s.nrDev=!0))}catch(c){}s.nrDev&&i.on("internal-error",function(t){r(t.stack)}),s.dev&&i.on("fn-err",function(t,e,n){r(n.stack)}),s.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(s,function(t,e){return t}).join(", ")))},{}],2:[function(t,e,n){function r(t,e,n,r,o){try{d?d-=1:i("err",[o||new UncaughtException(t,e,n)])}catch(s){try{i("ierr",[s,(new Date).getTime(),!0])}catch(c){}}return"function"==typeof f?f.apply(this,a(arguments)):!1}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function o(t){i("err",[t,(new Date).getTime()])}var i=t("handle"),a=t(15),s=t("ee"),c=t("loader"),f=window.onerror,u=!1,d=0;c.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(l){"stack"in l&&(t(8),t(7),"addEventListener"in window&&t(5),c.xhrWrappable&&t(9),u=!0)}s.on("fn-start",function(t,e,n){u&&(d+=1)}),s.on("fn-err",function(t,e,n){u&&(this.thrown=!0,o(n))}),s.on("fn-end",function(){u&&!this.thrown&&d>0&&(d-=1)}),s.on("internal-error",function(t){i("ierr",[t,(new Date).getTime(),!0])})},{}],3:[function(t,e,n){t("loader").features.ins=!0},{}],4:[function(t,e,n){function r(t){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var o=t("ee"),i=t("handle"),a=t(8),s=t(7);t("loader").features.stn=!0,t(6);var c=NREUM.o.EV;o.on("fn-start",function(t,e){var n=t[0];n instanceof c&&(this.bstStart=Date.now())}),o.on("fn-end",function(t,e){var n=t[0];n instanceof c&&i("bst",[n,e,this.bstStart,Date.now()])}),a.on("fn-start",function(t,e,n){this.bstStart=Date.now(),this.bstType=n}),a.on("fn-end",function(t,e){i("bstTimer",[e,this.bstStart,Date.now(),this.bstType])}),s.on("fn-start",function(){this.bstStart=Date.now()}),s.on("fn-end",function(t,e){i("bstTimer",[e,this.bstStart,Date.now(),"requestAnimationFrame"])}),o.on("pushState-start",function(t){this.time=Date.now(),this.startPath=location.pathname+location.hash}),o.on("pushState-end",function(t){i("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),"addEventListener"in window.performance&&(window.performance.clearResourceTimings?window.performance.addEventListener("resourcetimingbufferfull",function(t){i("bstResource",[window.performance.getEntriesByType("resource")]),window.performance.clearResourceTimings()},!1):window.performance.addEventListener("webkitresourcetimingbufferfull",function(t){i("bstResource",[window.performance.getEntriesByType("resource")]),window.performance.webkitClearResourceTimings()},!1)),document.addEventListener("scroll",r,!1),document.addEventListener("keypress",r,!1),document.addEventListener("click",r,!1)}},{}],5:[function(t,e,n){function r(t){for(var e=t;e&&!e.hasOwnProperty(u);)e=Object.getPrototypeOf(e);e&&o(e)}function o(t){s.inPlace(t,[u,d],"-",i)}function i(t,e){return t[1]}var a=t("ee").get("events"),s=t(16)(a),c=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";e.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(o(window),o(f.prototype)),a.on(u+"-start",function(t,e){if(t[1]){var n=t[1];if("function"==typeof n){var r=c(n,"nr@wrapped",function(){return s(n,"fn-",null,n.name||"anonymous")});this.wrapped=t[1]=r}else"function"==typeof n.handleEvent&&s.inPlace(n,["handleEvent"],"fn-")}}),a.on(d+"-start",function(t){var e=this.wrapped;e&&(t[1]=e)})},{}],6:[function(t,e,n){var r=t("ee").get("history"),o=t(16)(r);e.exports=r,o.inPlace(window.history,["pushState","replaceState"],"-")},{}],7:[function(t,e,n){var r=t("ee").get("raf"),o=t(16)(r);e.exports=r,o.inPlace(window,["requestAnimationFrame","mozRequestAnimationFrame","webkitRequestAnimationFrame","msRequestAnimationFrame"],"raf-"),r.on("raf-start",function(t){t[0]=o(t[0],"fn-")})},{}],8:[function(t,e,n){function r(t,e,n){t[0]=a(t[0],"fn-",null,n)}function o(t,e,n){this.method=n,this.timerDuration="number"==typeof t[1]?t[1]:0,t[0]=a(t[0],"fn-",this,n)}var i=t("ee").get("timer"),a=t(16)(i);e.exports=i,a.inPlace(window,["setTimeout","setImmediate"],"setTimer-"),a.inPlace(window,["setInterval"],"setInterval-"),a.inPlace(window,["clearTimeout","clearImmediate"],"clearTimeout-"),i.on("setInterval-start",r),i.on("setTimer-start",o)},{}],9:[function(t,e,n){function r(t,e){d.inPlace(e,["onreadystatechange"],"fn-",s)}function o(){var t=this,e=u.context(t);t.readyState>3&&!e.resolved&&(e.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,v,"fn-",s)}function i(t){w.push(t),h&&(g=-g,b.data=g)}function a(){for(var t=0;t<w.length;t++)r([],w[t]);w.length&&(w=[])}function s(t,e){return e}function c(t,e){for(var n in t)e[n]=t[n];return e}t(5);var f=t("ee"),u=f.get("xhr"),d=t(16)(u),l=NREUM.o,p=l.XHR,h=l.MO,m="readystatechange",v=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],w=[];e.exports=u;var y=window.XMLHttpRequest=function(t){var e=new p(t);try{u.emit("new-xhr",[e],e),e.addEventListener(m,o,!1)}catch(n){try{u.emit("internal-error",[n])}catch(r){}}return e};if(c(p,y),y.prototype=p.prototype,d.inPlace(y.prototype,["open","send"],"-xhr-",s),u.on("send-xhr-start",function(t,e){r(t,e),i(e)}),u.on("open-xhr-start",r),h){var g=1,b=document.createTextNode(g);new h(a).observe(b,{characterData:!0})}else f.on("fn-end",function(t){t[0]&&t[0].type===m||a()})},{}],10:[function(t,e,n){function r(t){var e=this.params,n=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;l>r;r++)t.removeEventListener(d[r],this.listener,!1);if(!e.aborted){if(n.duration=(new Date).getTime()-this.startTime,4===t.readyState){e.status=t.status;var i=o(t,this.lastSize);if(i&&(n.rxSize=i),this.sameOrigin){var a=t.getResponseHeader("X-NewRelic-App-Data");a&&(e.cat=a.split(", ").pop())}}else e.status=0;n.cbTime=this.cbTime,u.emit("xhr-done",[t],t),c("xhr",[e,n,this.startTime])}}}function o(t,e){var n=t.responseType;if("json"===n&&null!==e)return e;var r="arraybuffer"===n||"blob"===n||"json"===n?t.response:t.responseText;return i(r)}function i(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(e){return}}}function a(t,e){var n=f(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.sameOrigin=n.sameOrigin}var s=t("loader");if(s.xhrWrappable){var c=t("handle"),f=t(11),u=t("ee"),d=["load","error","abort","timeout"],l=d.length,p=t("id"),h=t(13),m=window.XMLHttpRequest;s.features.xhr=!0,t(9),u.on("new-xhr",function(t){var e=this;e.totalCbs=0,e.called=0,e.cbTime=0,e.end=r,e.ended=!1,e.xhrGuids={},e.lastSize=null,h&&(h>34||10>h)||window.opera||t.addEventListener("progress",function(t){e.lastSize=t.loaded},!1)}),u.on("open-xhr-start",function(t){this.params={method:t[0]},a(this,t[1]),this.metrics={}}),u.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),u.on("send-xhr-start",function(t,e){var n=this.metrics,r=t[0],o=this;if(n&&r){var a=i(r);a&&(n.txSize=a)}this.startTime=(new Date).getTime(),this.listener=function(t){try{"abort"===t.type&&(o.params.aborted=!0),("load"!==t.type||o.called===o.totalCbs&&(o.onloadCalled||"function"!=typeof e.onload))&&o.end(e)}catch(n){try{u.emit("internal-error",[n])}catch(r){}}};for(var s=0;l>s;s++)e.addEventListener(d[s],this.listener,!1)}),u.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),u.on("xhr-load-added",function(t,e){var n=""+p(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),u.on("xhr-load-removed",function(t,e){var n=""+p(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),u.on("addEventListener-end",function(t,e){e instanceof m&&"load"===t[0]&&u.emit("xhr-load-added",[t[1],t[2]],e)}),u.on("removeEventListener-end",function(t,e){e instanceof m&&"load"===t[0]&&u.emit("xhr-load-removed",[t[1],t[2]],e)}),u.on("fn-start",function(t,e,n){e instanceof m&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=(new Date).getTime()))}),u.on("fn-end",function(t,e){this.xhrCbStart&&u.emit("xhr-cb-time",[(new Date).getTime()-this.xhrCbStart,this.onload,e],e)})}},{}],11:[function(t,e,n){e.exports=function(t){var e=document.createElement("a"),n=window.location,r={};e.href=t,r.port=e.port;var o=e.href.split("://");!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=e.hostname||n.hostname,r.pathname=e.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname);var i=!e.protocol||":"===e.protocol||e.protocol===n.protocol,a=e.hostname===document.domain&&e.port===n.port;return r.sameOrigin=i&&(!e.hostname||a),r}},{}],12:[function(t,e,n){function r(t,e){return function(){o(t,[(new Date).getTime()].concat(a(arguments)),null,e)}}var o=t("handle"),i=t(14),a=t(15);"undefined"==typeof window.newrelic&&(newrelic=NREUM);var s=["setPageViewName","addPageAction","setCustomAttribute","finished","addToTrace","inlineHit"],c=["addPageAction"],f="api-";i(s,function(t,e){newrelic[e]=r(f+e,"api")}),i(c,function(t,e){newrelic[e]=r(f+e)}),e.exports=newrelic,newrelic.noticeError=function(t){"string"==typeof t&&(t=new Error(t)),o("err",[t,(new Date).getTime()])}},{}],13:[function(t,e,n){var r=0,o=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);o&&(r=+o[1]),e.exports=r},{}],14:[function(t,e,n){function r(t,e){var n=[],r="",i=0;for(r in t)o.call(t,r)&&(n[i]=e(r,t[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],15:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(0>o?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=r},{}],16:[function(t,e,n){function r(t){return!(t&&"function"==typeof t&&t.apply&&!t[a])}var o=t("ee"),i=t(15),a="nr@original",s=Object.prototype.hasOwnProperty,c=!1;e.exports=function(t){function e(t,e,n,o){function nrWrapper(){var r,a,s,c;try{a=this,r=i(arguments),s="function"==typeof n?n(r,a):n||{}}catch(u){d([u,"",[r,a,o],s])}f(e+"start",[r,a,o],s);try{return c=t.apply(a,r)}catch(l){throw f(e+"err",[r,a,l],s),l}finally{f(e+"end",[r,a,c],s)}}return r(t)?t:(e||(e=""),nrWrapper[a]=t,u(t,nrWrapper),nrWrapper)}function n(t,n,o,i){o||(o="");var a,s,c,f="-"===o.charAt(0);for(c=0;c<n.length;c++)s=n[c],a=t[s],r(a)||(t[s]=e(a,f?s+o:o,i,s))}function f(e,n,r){if(!c){c=!0;try{t.emit(e,n,r)}catch(o){d([o,e,n,r])}c=!1}}function u(t,e){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(t);return n.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(r){d([r])}for(var o in t)s.call(t,o)&&(e[o]=t[o]);return e}function d(e){try{t.emit("internal-error",e)}catch(n){}}return t||(t=o),e.inPlace=n,e.flag=a,e}},{}],ee:[function(t,e,n){function r(){}function o(t){function e(t){return t&&t instanceof r?t:t?s(t,a,i):i()}function n(n,r,o){t&&t(n,r,o);for(var i=e(o),a=l(n),s=a.length,c=0;s>c;c++)a[c].apply(i,r);var u=f[v[n]];return u&&u.push([w,n,r,i]),i}function d(t,e){m[t]=l(t).concat(e)}function l(t){return m[t]||[]}function p(t){return u[t]=u[t]||o(n)}function h(t,e){c(t,function(t,n){e=e||"feature",v[n]=e,e in f||(f[e]=[])})}var m={},v={},w={on:d,emit:n,get:p,listeners:l,context:e,buffer:h};return w}function i(){return new r}var a="nr@context",s=t("gos"),c=t(14),f={},u={},d=e.exports=o();d.backlog=f},{}],gos:[function(t,e,n){function r(t,e,n){if(o.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[e]=r,r}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){o.buffer([t],r),o.emit(t,e,n)}var o=t("ee").get("handle");e.exports=r,r.ee=o},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!m++){var t=h.info=NREUM.info,e=u.getElementsByTagName("script")[0];if(t&&t.licenseKey&&t.applicationID&&e){c(l,function(e,n){t[e]||(t[e]=n)});var n="https"===d.split(":")[0]||t.sslForHttp;h.proto=n?"https://":"http://",s("mark",["onload",a()],null,"api");var r=u.createElement("script");r.src=h.proto+t.agent,e.parentNode.insertBefore(r,e)}}}function o(){"complete"===u.readyState&&i()}function i(){s("mark",["domContent",a()],null,"api")}function a(){return(new Date).getTime()}var s=t("handle"),c=t(14),f=window,u=f.document;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:f.XMLHttpRequest,REQ:f.Request,EV:f.Event,PR:f.Promise,MO:f.MutationObserver},t(12);var d=""+location,l={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-918.min.js"},p=window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&!/CriOS/.test(navigator.userAgent),h=e.exports={offset:a(),origin:d,features:{},xhrWrappable:p};u.addEventListener?(u.addEventListener("DOMContentLoaded",i,!1),f.addEventListener("load",r,!1)):(u.attachEvent("onreadystatechange",o),f.attachEvent("onload",r)),s("mark",["firstbyte",a()],null,"api");var m=0},{}]},{},["loader",2,10,4,3]);</script> 
+  <meta name="viewport" content="width=1200" /> 
+  <meta name="description" content="An ebook library that transforms students into successful, confident readers" /> 
+  <link rel="shortcut icon" href="http://d3r7smo9ckww6x.cloudfront.net/fav-icon-32.png" type="image/png" /> 
+  <link rel="shortlink" href="/en/literacy-pro-library" /> 
+  <meta name="Generator" content="Drupal 7 (http://drupal.org)" /> 
+  <link rel="canonical" href="/en/literacy-pro-library" /> 
+  <title>Literacy Pro Library | Scholastic Learning Zone</title> 
+  <style type="text/css" media="all">@import url("http://north-asia.scholastic.com/modules/system/system.base.css?o7imis");
+@import url("http://north-asia.scholastic.com/modules/system/system.menus.css?o7imis");
+@import url("http://north-asia.scholastic.com/modules/system/system.messages.css?o7imis");
+@import url("http://north-asia.scholastic.com/modules/system/system.theme.css?o7imis");</style> 
+  <style type="text/css" media="screen">@import url("http://north-asia.scholastic.com/sites/all/modules/tipsy/stylesheets/tipsy.css?o7imis");</style> 
+  <style type="text/css" media="all">@import url("http://north-asia.scholastic.com/misc/ui/jquery.ui.core.css?o7imis");
+@import url("http://north-asia.scholastic.com/misc/ui/jquery.ui.theme.css?o7imis");
+@import url("http://north-asia.scholastic.com/misc/ui/jquery.ui.accordion.css?o7imis");</style> 
+  <style type="text/css" media="all">@import url("http://north-asia.scholastic.com/sites/all/modules/simplenews/simplenews.css?o7imis");
+@import url("http://north-asia.scholastic.com/sites/all/modules/basic_cart/basic_cart.css?o7imis");
+@import url("http://north-asia.scholastic.com/modules/comment/comment.css?o7imis");
+@import url("http://north-asia.scholastic.com/sites/all/modules/date/date_api/date.css?o7imis");
+@import url("http://north-asia.scholastic.com/sites/all/modules/date/date_popup/themes/datepicker.1.7.css?o7imis");
+@import url("http://north-asia.scholastic.com/sites/all/modules/domain/domain_nav/domain_nav.css?o7imis");
+@import url("http://north-asia.scholastic.com/modules/field/theme/field.css?o7imis");
+@import url("http://north-asia.scholastic.com/modules/node/node.css?o7imis");
+@import url("http://north-asia.scholastic.com/sites/all/modules/om_maximenu/css/om_maximenu.css?o7imis");
+@import url("http://north-asia.scholastic.com/modules/search/search.css?o7imis");
+@import url("http://north-asia.scholastic.com/modules/user/user.css?o7imis");
+@import url("http://north-asia.scholastic.com/sites/all/modules/views/css/views.css?o7imis");</style> 
+  <style type="text/css" media="all">@import url("http://north-asia.scholastic.com/sites/all/modules/ctools/css/ctools.css?o7imis");
+@import url("http://north-asia.scholastic.com/sites/all/modules/custom/features/global_about/css/global_about.css?o7imis");
+@import url("http://north-asia.scholastic.com/sites/all/modules/lightbox2/css/lightbox_alt.css?o7imis");
+@import url("http://north-asia.scholastic.com/sites/all/modules/ctools/css/modal.css?o7imis");
+@import url("http://north-asia.scholastic.com/sites/all/modules/modal_forms/css/modal_forms_popup.css?o7imis");
+@import url("http://north-asia.scholastic.com/sites/all/modules/panels/css/panels.css?o7imis");
+@import url("http://north-asia.scholastic.com/sites/all/modules/custom/scholastic_basic_cart/css/scholastic_basic_cart.css?o7imis");
+@import url("http://north-asia.scholastic.com/sites/all/modules/custom/scholastic_emea_myaccount/css/scholastic_emea_myaccount.css?o7imis");
+@import url("http://north-asia.scholastic.com/sites/all/modules/custom/scholastic_india/css/scholastic_characters.css?o7imis");
+@import url("http://north-asia.scholastic.com/sites/all/libraries/superfish/css/superfish.css?o7imis");
+@import url("http://north-asia.scholastic.com/sites/all/libraries/superfish/css/superfish-vertical.css?o7imis");
+@import url("http://north-asia.scholastic.com/sites/all/libraries/superfish/css/superfish-navbar.css?o7imis");
+@import url("http://north-asia.scholastic.com/sites/all/modules/views_slideshow/views_slideshow.css?o7imis");
+@import url("http://north-asia.scholastic.com/sites/all/modules/custom/scholastic_global_custom/css/css.css?o7imis");
+@import url("http://north-asia.scholastic.com/sites/all/modules/panels/plugins/layouts/flexible/flexible.css?o7imis");</style> 
+  <style type="text/css" media="all">
+<!--/*--><![CDATA[/*><!--*/
+.panels-flexible-region {
+  padding: 0;
+}
+
+.panels-flexible-region-inside {
+  padding-right: 0.5em;
+  padding-left: 0.5em;
+}
+
+.panels-flexible-region-inside-first {
+  padding-left: 0;
+}
+
+.panels-flexible-region-inside-last {
+  padding-right: 0;
+}
+
+.panels-flexible-column {
+  padding: 0;
+}
+
+.panels-flexible-column-inside {
+  padding-right: 0.5em;
+  padding-left: 0.5em;
+}
+
+.panels-flexible-column-inside-first {
+  padding-left: 0;
+}
+
+.panels-flexible-column-inside-last {
+  padding-right: 0;
+}
+
+.panels-flexible-row {
+  padding: 0 0 0.5em 0;
+  margin: 0;
+}
+
+.panels-flexible-row-last {
+  padding-bottom: 0;
+}
+
+.panels-flexible-column-new-main {
+  float: left;
+  width: 99.0000%;
+}
+
+.panels-flexible-new-inside {
+  padding-right: 0px;
+}
+
+.panels-flexible-new {
+  width: auto;
+}
+
+.panels-flexible-region-new-content_top {
+  float: left;
+  width: 99.0000%;
+}
+
+.panels-flexible-row-new-3-inside {
+  padding-right: 0px;
+}
+
+.panels-flexible-region-new-content_middle {
+  float: left;
+  width: 99.0000%;
+}
+
+.panels-flexible-row-new-2-inside {
+  padding-right: 0px;
+}
+
+.panels-flexible-region-new-content {
+  float: left;
+  width: 99.0000%;
+}
+
+.panels-flexible-row-new-1-inside {
+  padding-right: 0px;
+}
+
+.panels-flexible-region-new-contact_us {
+  float: left;
+  width: 99.0000%;
+}
+
+.panels-flexible-row-new-main-row-inside {
+  padding-right: 0px;
+}
+
+
+/*]]>*/-->
+</style> 
+  <style type="text/css" media="all">@import url("http://north-asia.scholastic.com/sites/all/themes/omega/alpha/css/alpha-reset.css?o7imis");
+@import url("http://north-asia.scholastic.com/sites/all/themes/omega/alpha/css/alpha-mobile.css?o7imis");
+@import url("http://north-asia.scholastic.com/sites/all/themes/omega/alpha/css/alpha-alpha.css?o7imis");
+@import url("http://north-asia.scholastic.com/sites/all/themes/omega/omega/css/formalize.css?o7imis");
+@import url("http://north-asia.scholastic.com/sites/all/themes/omega/omega/css/omega-text.css?o7imis");
+@import url("http://north-asia.scholastic.com/sites/all/themes/omega/omega/css/omega-branding.css?o7imis");
+@import url("http://north-asia.scholastic.com/sites/all/themes/omega/omega/css/omega-menu.css?o7imis");
+@import url("http://north-asia.scholastic.com/sites/all/themes/omega/omega/css/omega-forms.css?o7imis");
+@import url("http://north-asia.scholastic.com/sites/all/themes/omega/omega/css/omega-visuals.css?o7imis");
+@import url("http://north-asia.scholastic.com/sites/all/themes/literacy_pro_library/css/global.css?o7imis");</style> 
+  <style type="text/css" media="all">@import url("http://north-asia.scholastic.com/sites/all/themes/omega/alpha/css/grid/alpha_fluid/normal/alpha-fluid-normal-12.css?o7imis");</style> 
+  <script type="text/javascript" src="http://north-asia.scholastic.com/misc/jquery.js?v=1.4.4"></script> 
+  <script type="text/javascript" src="http://north-asia.scholastic.com/misc/jquery.once.js?v=1.2"></script> 
+  <script type="text/javascript" src="http://north-asia.scholastic.com/misc/drupal.js?o7imis"></script> 
+  <script type="text/javascript" src="http://north-asia.scholastic.com/sites/all/modules/tipsy/javascripts/jquery.tipsy.js?v=0.1.7"></script> 
+  <script type="text/javascript" src="http://north-asia.scholastic.com/sites/all/modules/tipsy/javascripts/tipsy.js?v=0.1.7"></script> 
+  <script type="text/javascript" src="http://north-asia.scholastic.com/misc/ui/jquery.ui.core.min.js?v=1.8.7"></script> 
+  <script type="text/javascript" src="http://north-asia.scholastic.com/misc/ajax.js?v=7.32"></script> 
+  <script type="text/javascript" src="http://north-asia.scholastic.com/misc/ui/jquery.ui.widget.min.js?v=1.8.7"></script> 
+  <script type="text/javascript" src="http://north-asia.scholastic.com/misc/jquery.cookie.js?v=1.0"></script> 
+  <script type="text/javascript" src="http://north-asia.scholastic.com/misc/jquery.form.js?v=2.52"></script> 
+  <script type="text/javascript" src="http://north-asia.scholastic.com/misc/ui/jquery.ui.accordion.min.js?v=1.8.7"></script> 
+  <script type="text/javascript" src="http://north-asia.scholastic.com/sites/all/modules/om_maximenu/js/om_maximenu.js?o7imis"></script> 
+  <script type="text/javascript" src="http://north-asia.scholastic.com/sites/all/modules/scholastic_contact/scholastic_contact.js?o7imis"></script> 
+  <script type="text/javascript" src="http://north-asia.scholastic.com/sites/all/modules/scholastic_localization/scholastic_localization.js?o7imis"></script> 
+  <script type="text/javascript" src="http://north-asia.scholastic.com/sites/all/modules/custom/scholastic_redirect/scholastic_redirect.js?o7imis"></script> 
+  <script type="text/javascript" src="http://north-asia.scholastic.com/sites/all/modules/scholastic_slideshow/scholastic_slideshow.js?o7imis"></script> 
+  <script type="text/javascript" src="http://north-asia.scholastic.com/sites/all/modules/modal_forms/js/modal_forms_login.js?o7imis"></script> 
+  <script type="text/javascript" src="http://north-asia.scholastic.com/sites/all/modules/lightbox2/js/lightbox.js?1465548365"></script> 
+  <script type="text/javascript" src="http://north-asia.scholastic.com/sites/all/themes/literacy_pro_library/js/literacy_pro_library.js?o7imis"></script> 
+  <script type="text/javascript" src="http://north-asia.scholastic.com/sites/all/themes/literacy_pro_library/js/jquery.validate.min.js?o7imis"></script> 
+  <script type="text/javascript" src="http://north-asia.scholastic.com/misc/progress.js?v=7.32"></script> 
+  <script type="text/javascript" src="http://north-asia.scholastic.com/sites/all/modules/ctools/js/modal.js?o7imis"></script> 
+  <script type="text/javascript" src="http://north-asia.scholastic.com/sites/all/modules/modal_forms/js/modal_forms_popup.js?o7imis"></script> 
+  <script type="text/javascript" src="http://north-asia.scholastic.com/sites/all/modules/panels/js/panels.js?o7imis"></script> 
+  <script type="text/javascript" src="http://north-asia.scholastic.com/sites/all/modules/custom/scholastic_basic_cart/scholastic_basic_cart.js?o7imis"></script> 
+  <script type="text/javascript" src="http://north-asia.scholastic.com/sites/all/modules/scholastic_emea_listbuilder/listbuilder.js?o7imis"></script> 
+  <script type="text/javascript" src="http://north-asia.scholastic.com/sites/all/modules/scholastic_emea_listbuilder/listbuilder_start_order.js?o7imis"></script> 
+  <script type="text/javascript" src="http://north-asia.scholastic.com/sites/all/libraries/jquery.cycle/jquery.cycle.all.js?o7imis"></script> 
+  <script type="text/javascript" src="http://north-asia.scholastic.com/sites/all/libraries/jquery.roundabout/jquery.roundabout.min.js?o7imis"></script> 
+  <script type="text/javascript" src="http://north-asia.scholastic.com/sites/all/modules/jcarousel/js/jquery.jcarousel.min.js?o7imis"></script> 
+  <script type="text/javascript" src="http://north-asia.scholastic.com/sites/all/modules/custom/scholastic_india/js/jquery.mousewheel.min.js?o7imis"></script> 
+  <script type="text/javascript" src="http://north-asia.scholastic.com/sites/all/modules/custom/scholastic_india/js/scholastic_characters.js?o7imis"></script> 
+  <script type="text/javascript" src="http://north-asia.scholastic.com/sites/all/modules/custom/scholastic_india/js/script.js?o7imis"></script> 
+  <script type="text/javascript" src="http://north-asia.scholastic.com/sites/all/libraries/superfish/jquery.hoverIntent.minified.js?o7imis"></script> 
+  <script type="text/javascript" src="http://north-asia.scholastic.com/sites/all/libraries/superfish/jquery.bgiframe.min.js?o7imis"></script> 
+  <script type="text/javascript" src="http://north-asia.scholastic.com/sites/all/libraries/superfish/superfish.js?o7imis"></script> 
+  <script type="text/javascript" src="http://north-asia.scholastic.com/sites/all/libraries/superfish/supersubs.js?o7imis"></script> 
+  <script type="text/javascript" src="http://north-asia.scholastic.com/sites/all/libraries/superfish/supposition.js?o7imis"></script> 
+  <script type="text/javascript" src="http://north-asia.scholastic.com/sites/all/libraries/superfish/sftouchscreen.js?o7imis"></script> 
+  <script type="text/javascript" src="http://north-asia.scholastic.com/sites/all/modules/views_slideshow/js/views_slideshow.js?o7imis"></script> 
+  <script type="text/javascript" src="http://north-asia.scholastic.com/sites/all/modules/custom/scholastic_global_custom/js/js.js?o7imis"></script> 
+  <script type="text/javascript" src="http://north-asia.scholastic.com/misc/textarea.js?v=7.32"></script> 
+  <script type="text/javascript" src="http://north-asia.scholastic.com/sites/all/modules/google_analytics/googleanalytics.js?o7imis"></script> 
+  <script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var _gaq = _gaq || [];_gaq.push(["_setAccount", "UA-45316997-19"]);_gaq.push(["_setDomainName", "none"]);_gaq.push(["_setAllowLinker", true]);_gaq.push(["_trackPageview"]);(function() {var ga = document.createElement("script");ga.type = "text/javascript";ga.async = true;ga.src = ("https:" == document.location.protocol ? "https://ssl" : "http://www") + ".google-analytics.com/ga.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ga, s);})();
+//--><!]]>
+</script> 
+  <script type="text/javascript" src="http://north-asia.scholastic.com/sites/all/themes/omega/omega/js/jquery.formalize.js?o7imis"></script> 
+  <script type="text/javascript" src="http://north-asia.scholastic.com/sites/all/themes/omega/omega/js/omega-mediaqueries.js?o7imis"></script> 
+  <script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"en\/","ajaxPageState":{"theme":"literacy_pro_library","theme_token":"cKp7WD89lb42CfYVyi2WXooYXdRmcisF2wwH_LwV_A8","css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"sites\/all\/modules\/tipsy\/stylesheets\/tipsy.css":1,"misc\/ui\/jquery.ui.core.css":1,"misc\/ui\/jquery.ui.theme.css":1,"misc\/ui\/jquery.ui.accordion.css":1,"sites\/all\/modules\/simplenews\/simplenews.css":1,"sites\/all\/modules\/basic_cart\/basic_cart.css":1,"modules\/comment\/comment.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"sites\/all\/modules\/domain\/domain_nav\/domain_nav.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"sites\/all\/modules\/om_maximenu\/css\/om_maximenu.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/custom\/features\/global_about\/css\/global_about.css":1,"sites\/all\/modules\/lightbox2\/css\/lightbox_alt.css":1,"sites\/all\/modules\/ctools\/css\/modal.css":1,"sites\/all\/modules\/modal_forms\/css\/modal_forms_popup.css":1,"sites\/all\/modules\/panels\/css\/panels.css":1,"sites\/all\/modules\/custom\/scholastic_basic_cart\/css\/scholastic_basic_cart.css":1,"sites\/all\/modules\/custom\/scholastic_emea_myaccount\/css\/scholastic_emea_myaccount.css":1,"sites\/all\/modules\/custom\/scholastic_india\/css\/scholastic_characters.css":1,"sites\/all\/libraries\/superfish\/css\/superfish.css":1,"sites\/all\/libraries\/superfish\/css\/superfish-vertical.css":1,"sites\/all\/libraries\/superfish\/css\/superfish-navbar.css":1,"sites\/all\/modules\/views_slideshow\/views_slideshow.css":1,"sites\/all\/modules\/custom\/scholastic_global_custom\/css\/css.css":1,"sites\/all\/modules\/panels\/plugins\/layouts\/flexible\/flexible.css":1,"0":1,"sites\/all\/themes\/omega\/alpha\/css\/alpha-reset.css":1,"sites\/all\/themes\/omega\/alpha\/css\/alpha-mobile.css":1,"sites\/all\/themes\/omega\/alpha\/css\/alpha-alpha.css":1,"sites\/all\/themes\/omega\/omega\/css\/formalize.css":1,"sites\/all\/themes\/omega\/omega\/css\/omega-text.css":1,"sites\/all\/themes\/omega\/omega\/css\/omega-branding.css":1,"sites\/all\/themes\/omega\/omega\/css\/omega-menu.css":1,"sites\/all\/themes\/omega\/omega\/css\/omega-forms.css":1,"sites\/all\/themes\/omega\/omega\/css\/omega-visuals.css":1,"sites\/all\/themes\/literacy_pro_library\/css\/global.css":1,"sites\/all\/themes\/omega\/alpha\/css\/grid\/alpha_fluid\/normal\/alpha-fluid-normal-12.css":1},"js":{"http:\/\/admin.brightcove.com\/js\/BrightcoveExperiences.js":1,"sites\/all\/modules\/custom\/scholastic_global_custom\/js\/events.js":1,"0":1,"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/tipsy\/javascripts\/jquery.tipsy.js":1,"sites\/all\/modules\/tipsy\/javascripts\/tipsy.js":1,"misc\/ui\/jquery.ui.core.min.js":1,"misc\/ajax.js":1,"misc\/ui\/jquery.ui.widget.min.js":1,"misc\/jquery.cookie.js":1,"misc\/jquery.form.js":1,"misc\/ui\/jquery.ui.accordion.min.js":1,"sites\/all\/modules\/om_maximenu\/js\/om_maximenu.js":1,"sites\/all\/modules\/scholastic_contact\/scholastic_contact.js":1,"sites\/all\/modules\/scholastic_localization\/scholastic_localization.js":1,"sites\/all\/modules\/custom\/scholastic_redirect\/scholastic_redirect.js":1,"sites\/all\/modules\/scholastic_slideshow\/scholastic_slideshow.js":1,"sites\/all\/modules\/modal_forms\/js\/modal_forms_login.js":1,"sites\/all\/modules\/lightbox2\/js\/lightbox.js":1,"sites\/all\/themes\/literacy_pro_library\/js\/literacy_pro_library.js":1,"sites\/all\/themes\/literacy_pro_library\/js\/jquery.validate.min.js":1,"misc\/progress.js":1,"sites\/all\/modules\/ctools\/js\/modal.js":1,"sites\/all\/modules\/modal_forms\/js\/modal_forms_popup.js":1,"sites\/all\/modules\/panels\/js\/panels.js":1,"sites\/all\/modules\/custom\/scholastic_basic_cart\/scholastic_basic_cart.js":1,"sites\/all\/modules\/scholastic_emea_listbuilder\/listbuilder.js":1,"sites\/all\/modules\/scholastic_emea_listbuilder\/listbuilder_start_order.js":1,"sites\/all\/libraries\/jquery.cycle\/jquery.cycle.all.js":1,"sites\/all\/libraries\/jquery.roundabout\/jquery.roundabout.min.js":1,"sites\/all\/modules\/jcarousel\/js\/jquery.jcarousel.min.js":1,"sites\/all\/modules\/custom\/scholastic_india\/js\/jquery.mousewheel.min.js":1,"sites\/all\/modules\/custom\/scholastic_india\/js\/scholastic_characters.js":1,"sites\/all\/modules\/custom\/scholastic_india\/js\/script.js":1,"sites\/all\/libraries\/superfish\/jquery.hoverIntent.minified.js":1,"sites\/all\/libraries\/superfish\/jquery.bgiframe.min.js":1,"sites\/all\/libraries\/superfish\/superfish.js":1,"sites\/all\/libraries\/superfish\/supersubs.js":1,"sites\/all\/libraries\/superfish\/supposition.js":1,"sites\/all\/libraries\/superfish\/sftouchscreen.js":1,"sites\/all\/modules\/views_slideshow\/js\/views_slideshow.js":1,"sites\/all\/modules\/custom\/scholastic_global_custom\/js\/js.js":1,"misc\/textarea.js":1,"sites\/all\/modules\/google_analytics\/googleanalytics.js":1,"1":1,"sites\/all\/themes\/omega\/omega\/js\/jquery.formalize.js":1,"sites\/all\/themes\/omega\/omega\/js\/omega-mediaqueries.js":1}},"jcarousel":{"ajaxPath":"\/en\/jcarousel\/ajax\/views"},"lightbox2":{"rtl":"0","file_path":"\/(\\w\\w\/)s3:\/","default_image":"\/sites\/all\/modules\/lightbox2\/images\/brokenimage.jpg","border_size":10,"font_color":"000","box_color":"fff","top_position":"","overlay_opacity":"0.8","overlay_color":"000","disable_close_click":1,"resize_sequence":0,"resize_speed":400,"fade_in_speed":400,"slide_down_speed":600,"use_alt_layout":1,"disable_resize":0,"disable_zoom":0,"force_show_nav":0,"show_caption":0,"loop_items":0,"node_link_text":"View Image Details","node_link_target":0,"image_count":"Image !current of !total","video_count":"Video !current of !total","page_count":"Page !current of !total","lite_press_x_close":"press \u003Ca href=\u0022#\u0022 onclick=\u0022hideLightbox(); return FALSE;\u0022\u003E\u003Ckbd\u003Ex\u003C\/kbd\u003E\u003C\/a\u003E to close","download_link_text":"","enable_login":false,"enable_contact":false,"keys_close":"c x 27","keys_previous":"p 37","keys_next":"n 39","keys_zoom":"z","keys_play_pause":"32","display_image_size":"original","image_node_sizes":"()","trigger_lightbox_classes":"","trigger_lightbox_group_classes":"","trigger_slideshow_classes":"","trigger_lightframe_classes":"","trigger_lightframe_group_classes":"","custom_class_handler":0,"custom_trigger_classes":"","disable_for_gallery_lists":true,"disable_for_acidfree_gallery_lists":true,"enable_acidfree_videos":true,"slideshow_interval":5000,"slideshow_automatic_start":true,"slideshow_automatic_exit":true,"show_play_pause":true,"pause_on_next_click":false,"pause_on_previous_click":true,"loop_slides":false,"iframe_width":970,"iframe_height":500,"iframe_border":1,"enable_video":0},"literacy_pro_library":{"basePath":"\/","literacy_pro_library_menu_blue":0,"current_language":"en"},"CToolsModal":{"loadingText":"Loading...","closeText":"Close Window","closeImage":"\u003Cimg src=\u0022http:\/\/north-asia.scholastic.com\/sites\/all\/modules\/ctools\/images\/icon-close-window.png\u0022 alt=\u0022Close window\u0022 title=\u0022Close window\u0022 \/\u003E","throbber":"\u003Cimg src=\u0022http:\/\/north-asia.scholastic.com\/sites\/all\/modules\/ctools\/images\/throbber.gif\u0022 alt=\u0022Loading\u0022 title=\u0022Loading...\u0022 \/\u003E"},"modal-popup-small":{"modalSize":{"type":"fixed","width":700,"height":300},"modalOptions":{"opacity":0.85,"background":"#000"},"animation":"fadeIn","modalTheme":"ModalFormsPopup","throbber":"\u003Cimg src=\u0022http:\/\/north-asia.scholastic.com\/sites\/all\/modules\/modal_forms\/images\/loading_animation.gif\u0022 alt=\u0022Loading...\u0022 title=\u0022Loading\u0022 \/\u003E","closeText":"Close"},"modal-popup-medium":{"modalSize":{"type":"fixed","width":550,"height":450},"modalOptions":{"opacity":0.85,"background":"#000"},"animation":"fadeIn","modalTheme":"ModalFormsPopup","throbber":"\u003Cimg src=\u0022http:\/\/north-asia.scholastic.com\/sites\/all\/modules\/modal_forms\/images\/loading_animation.gif\u0022 alt=\u0022Loading...\u0022 title=\u0022Loading\u0022 \/\u003E","closeText":"Close"},"modal-popup-large":{"modalSize":{"type":"scale","width":0.8,"height":0.8},"modalOptions":{"opacity":0.85,"background":"#000"},"animation":"fadeIn","modalTheme":"ModalFormsPopup","throbber":"\u003Cimg src=\u0022http:\/\/north-asia.scholastic.com\/sites\/all\/modules\/modal_forms\/images\/loading_animation.gif\u0022 alt=\u0022Loading...\u0022 title=\u0022Loading\u0022 \/\u003E","closeText":"Close"},"scholastic_basic_cart":{"check_proxy":"no","remove_session":"no","url":"literacy-pro-library"},"scholastic_microsite":{"mcrs_url":"my-arabic-library"},"tipsy":{"custom_selectors":[{"selector":".tipsy","options":{"fade":1,"gravity":"sw","trigger":"hover","delayIn":"0","delayOut":"0","opacity":"0.8","offset":"0","html":0,"tooltip_content":{"source":"attribute","selector":"title"}}},{"selector":".views-tooltip","options":{"fade":1,"gravity":"sw","trigger":"hover","delayIn":"0","delayOut":"0","opacity":"0.8","offset":"0","html":1,"tooltip_content":{"source":"attribute","selector":"tooltip-content"}}},{"selector":".lb-tooltip","options":{"fade":1,"gravity":"sw","trigger":"hover","delayIn":"0","delayOut":"0","opacity":"0.8","offset":"0","html":1,"tooltip_content":{"source":"attribute","selector":"title"}}}]},"scholastic_global_custom":{"slideshowid":"bookflix-block_6,literacy_pro-block_7"},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls|xml|z|zip","trackDomainMode":"2","trackCrossDomains":["http:\/\/pr.scholastic.com","http:\/\/la.scholastic.com","http:\/\/emea.scholastic.com","http:\/\/anz.scholastic.com","http:\/\/canada.scholastic.com","http:\/\/nz.scholastic.com","http:\/\/au.scholastic.com","http:\/\/mea.scholastic.com","http:\/\/north-asia.scholastic.com","http:\/\/south-asia.scholastic.com","http:\/\/europe.scholastic.com"]},"omega":{"layouts":{"primary":"normal","order":[],"queries":[]}}});
+//--><!]]>
+</script> 
+  <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]--> 
+ </head> 
+ <body class="html not-front not-logged-in page-node page-node- page-node-80728 node-type-product library-domains-contact-us domain-north-asia-ws-sandbox-com literacy-pro-library literacy-pro-library-contact-us i18n-en context-literacy-pro-library lightbox-processed omega-mediaqueries-processed responsive-layout-mobile">
+  <div id="omega-media-query-dummy">
+   <style media="all">#omega-media-query-dummy { position: relative; z-index: -1; }</style>
+   <!--[if (lt IE 9)&(!IEMobile)]><style media="all">#omega-media-query-dummy { z-index: -1; }</style><![endif]-->
+  </div> 
+  <div id="skip-link"> 
+   <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a> 
+  </div> 
+  <div class="region region-page-top" id="region-page-top"> 
+   <div class="region-inner region-page-top-inner"> 
+   </div> 
+  </div> 
+  <div class="page clearfix" id="page"> 
+   <header id="section-header" class="section section-header"> 
+    <div id="zone-branding-wrapper" class="zone-wrapper zone-branding-wrapper clearfix"> 
+     <div id="zone-branding" class="zone zone-branding clearfix container-12"> 
+      <div class="grid-12 region region-branding" id="region-branding"> 
+       <div class="region-inner region-branding-inner"> 
+        <div class="block block-block block-72 block-block-72 odd block-without-title" id="block-block-72"> 
+         <div class="block-inner clearfix"> 
+          <div class="content clearfix"> 
+           <div class="branding-data clearfix"> 
+            <div class="logo-img"> 
+             <a class="active" title="North Asia" rel="home" href="/en"><img id="logo" alt="North Asia" src="../img/logo-v2.png" /></a> 
+            </div> 
+            <div id="sub-site-title"> 
+             <h5 id="website-region">North Asia</h5> 
+            </div> 
+           </div> 
+          </div> 
+         </div> 
+        </div>
+        <div class="block block-scholastic-localization block-detected-region-country block-scholastic-localization-detected-region-country even block-without-title" id="block-scholastic-localization-detected-region-country"> 
+         <div class="block-inner clearfix"> 
+          <div class="content clearfix"> 
+           <div id="user_country">
+            China
+           </div> 
+          </div> 
+         </div> 
+        </div>
+        <section class="block block-views block-literacy-pro-library-block block-views-literacy-pro-library-block odd" id="block-views-literacy-pro-library-block"> 
+         <div class="block-inner clearfix"> 
+          <h2 class="block-title">Literacy Pro Library Logo</h2> 
+          <div class="content clearfix"> 
+           <div class="view view-literacy-pro-library view-id-literacy_pro_library view-display-id-block view-dom-id-805aff4f30baeb90c1bd7f10821453e8"> 
+            <div class="view-content"> 
+             <div class="views-row views-row-1 views-row-odd views-row-first views-row-last"> 
+              <div class="views-field views-field-field-product-logo"> 
+               <div class="field-content">
+                <div id="node-image-82144" class="ds-1col node node-image view-mode-full node-not-promoted node-not-sticky author-anthai odd clearfix clearfix"> 
+                 <div class="field field-name-field-image-asset field-type-image field-label-hidden">
+                  <div class="field-items">
+                   <div class="field-item even">
+                    <a href="/en/literacy-pro-library"><img src="http://d3r7smo9ckww6x.cloudfront.net/literacy-pro-library-logo_3.png" width="237" height="79" alt="Literacy Pro Library Logo" title="Literacy Pro Library Logo" /></a>
+                   </div>
+                  </div>
+                 </div>
+                </div> 
+               </div> 
+              </div> 
+             </div> 
+            </div> 
+           </div> 
+          </div> 
+         </div> 
+        </section> 
+       </div> 
+      </div> 
+     </div> 
+    </div>
+    <div id="zone-menu-wrapper" class="zone-wrapper zone-menu-wrapper clearfix"> 
+     <div id="zone-menu" class="zone zone-menu clearfix container-12"> 
+      <div class="grid-12 region region-menu" id="region-menu"> 
+       <div class="region-inner region-menu-inner"> 
+        <section class="block block-om-maximenu block-om-maximenu-24 block-om-maximenu-om-maximenu-24 odd" id="block-om-maximenu-om-maximenu-24"> 
+         <div class="block-inner clearfix"> 
+          <h2 class="block-title">Literacy Pro Library</h2> 
+          <div class="content clearfix"> 
+           <div id="om-maximenu-literacy-pro-library" class="om-maximenu om-maximenu-bubble om-maximenu-block om-maximenu-row om-maximenu-block-down code-om-u284-700366504"> 
+            <div id="om-menu-literacy-pro-library-ul-wrapper" class="om-menu-ul-wrapper"> 
+             <ul id="om-menu-literacy-pro-library" class="om-menu"> 
+              <li id="om-leaf-om-u284-700366504-1" class="om-leaf first leaf-overview"> <a class="om-link  link-overview om-autoscroll" href="/en/literacy-pro-library">Overview</a> </li> 
+              <li id="om-leaf-om-u284-700366504-2" class="om-leaf leaf-features"> <a class="om-link  link-features om-autoscroll" href="/en/literacy-pro-library/features">Features</a> </li> 
+              <li id="om-leaf-om-u284-700366504-3" class="om-leaf leaf-contact active"> <a class="om-link rest-domains link-contact om-autoscroll" href="/en/literacy-pro-library/contact-us">Contact</a> </li> 
+              <li id="om-leaf-om-u284-700366504-4" class="om-leaf last leaf-contact"> <a class="om-link first-three-domains link-contact om-autoscroll" href="/en/contact?ref=literacy-pro-library">Contact</a> </li> 
+             </ul>
+             <!-- /.om-menu --> 
+            </div>
+            <!-- /.om-menu-ul-wrapper --> 
+           </div>
+           <!-- /#om-maximenu-[menu name] --> 
+          </div> 
+         </div> 
+        </section> 
+       </div> 
+      </div> 
+     </div> 
+    </div>
+    <div id="zone-header-wrapper" class="zone-wrapper zone-header-wrapper clearfix"> 
+     <div id="zone-header" class="zone zone-header clearfix container-12"> 
+      <div class="grid-6 region region-header-first" id="region-header-first"> 
+       <div class="region-inner region-header-first-inner"> 
+        <div class="block block-block block-52 block-block-52 odd block-without-title" id="block-block-52"> 
+         <div class="block-inner clearfix"> 
+          <div class="content clearfix"> 
+           <style>body:not(:-moz-handler-blocked) .scholastic-color-navigation .learners ul.om-menu > li.leaf-home { margin-top: 0px; }_:-ms-lang(x) .learners ul.om-menu > li.leaf-home,.scholastic-color-navigation .learners ul.om-menu > li.leaf-home { margin-top: 0px; }</style>
+           <script type="text/javascript" src="http://nexus.ensighten.com/scholastic/Bootstrap.js"></script>
+           <style>.mboxDefault { visibility:hidden; }</style> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div>
+   </header> 
+   <section id="section-content" class="section section-content"> 
+    <div id="zone-content-wrapper" class="zone-wrapper zone-content-wrapper clearfix"> 
+     <div id="zone-content" class="zone zone-content clearfix container-12"> 
+      <div class="grid-12 region region-content" id="region-content"> 
+       <div class="region-inner region-content-inner"> 
+        <a id="main-content"></a> 
+        <div class="block block-system block-main block-system-main odd block-without-title" id="block-system-main"> 
+         <div class="block-inner clearfix"> 
+          <div class="content clearfix"> 
+           <div class="panel-flexible panels-flexible-new clearfix"> 
+            <div class="panel-flexible-inside panels-flexible-new-inside"> 
+             <div class="panels-flexible-row panels-flexible-row-new-3 panels-flexible-row-first clearfix row-content-top"> 
+              <div class="inside panels-flexible-row-inside panels-flexible-row-new-3-inside panels-flexible-row-inside-first clearfix"> 
+               <div class="panels-flexible-region panels-flexible-region-new-content_top panels-flexible-region-first panels-flexible-region-last content-top"> 
+                <div class="inside panels-flexible-region-inside panels-flexible-region-new-content_top-inside panels-flexible-region-inside-first panels-flexible-region-inside-last"> 
+                </div> 
+               </div> 
+              </div> 
+             </div> 
+             <div class="panels-flexible-row panels-flexible-row-new-2 clearfix row-content-middle"> 
+              <div class="inside panels-flexible-row-inside panels-flexible-row-new-2-inside clearfix"> 
+               <div class="panels-flexible-region panels-flexible-region-new-content_middle panels-flexible-region-first panels-flexible-region-last content-middle"> 
+                <div class="inside panels-flexible-region-inside panels-flexible-region-new-content_middle-inside panels-flexible-region-inside-first panels-flexible-region-inside-last"> 
+                 <div class="panel-pane pane-block pane-literacy-pro-literacy-pro-contact-form literacy-pro-library-contact-form"> 
+                  <div class="pane-content"> 
+                   <form action="/en/literacy-pro-library/contact-us" method="post" id="literacy-pro-contact-form" accept-charset="UTF-8" novalidate="novalidate">
+                    <div>
+                     <div class="contact-info"> 
+                      <h4 class="look-forward">Contact your sales representative</h4>
+                      <div class="contact-1">
+                       <div class="view view-literacy-pro-sales-representative-block view-id-literacy_pro_sales_representative_block view-display-id-block_1 sales-representative view-dom-id-7873fa58fe454f1eea834043f13b2d87"> 
+                        <div class="view-content"> 
+                         <div class="views-row views-row-1 views-row-odd views-row-first views-row-last"> 
+                          <div class="views-field views-field-php"> 
+                           <span class="field-content">
+                            <div class="views-field views-field-title"> 
+                             <span class="field-content bold blue size-13">Scholastic Asia Customer Service</span> 
+                            </div><span class="views-field views-field-field-sale-photo"> <span class="field-content"> <img src="http://d3r7smo9ckww6x.cloudfront.net/styles/sales_representatives_image_thumbnails_lightbox/s3/sales/default-user-icon-profile_1_2.png?itok=lSLE0yZB" width="80" height="75" alt="" /> </span> </span><span class="views-field views-field-field-sale-country"> <span class="field-content"></span></span>
+                            <div class="views-field views-field-field-email-address clear bold"> 
+                             <span class="views-label views-label-field-email-address">Email: </span> 
+                             <span class="field-content"><a href="mailto:slzsales@scholastic.asia">slzsales@scholastic.asia</a></span> 
+                            </div></span> 
+                          </div> 
+                          <div class="contextual-links-wrapper"> 
+                           <div class="contextual-links-wrapper"></div> 
+                          </div> 
+                         </div> 
+                        </div> 
+                       </div>
+                      </div>
+                     </div>
+                     <h3>Tell us a little bit about you and we will be in touch!</h3>
+                     <div class="prime-math-form">
+                      <div class="form-item form-type-textfield form-item-first-name"> 
+                       <label for="edit-first-name">First Name <span class="form-required" title="This field is required.">*</span></label> 
+                       <input type="text" id="edit-first-name" name="first_name" value="" size="60" maxlength="128" class="form-text required" /> 
+                      </div> 
+                      <div class="form-item form-type-textfield form-item-last-name"> 
+                       <label for="edit-last-name">Last Name <span class="form-required" title="This field is required.">*</span></label> 
+                       <input type="text" id="edit-last-name" name="last_name" value="" size="60" maxlength="128" class="form-text required" /> 
+                      </div> 
+                      <div class="form-item form-type-textfield form-item-school-company"> 
+                       <label for="edit-school-company">School / Company name <span class="form-required" title="This field is required.">*</span></label> 
+                       <input type="text" id="edit-school-company" name="school_company" value="" size="60" maxlength="128" class="form-text required" /> 
+                      </div> 
+                      <div class="form-item form-type-select form-item-country"> 
+                       <label for="edit-country">Country <span class="form-required" title="This field is required.">*</span></label> 
+                       <select id="edit-country" name="country" class="form-select required"><option value="" selected="selected">- Select -</option><option value="AF">Afghanistan</option><option value="AX">Aland Islands</option><option value="AL">Albania</option><option value="DZ">Algeria</option><option value="AS">American Samoa</option><option value="AD">Andorra</option><option value="AO">Angola</option><option value="AI">Anguilla</option><option value="AQ">Antarctica</option><option value="AG">Antigua and Barbuda</option><option value="AR">Argentina</option><option value="AM">Armenia</option><option value="AW">Aruba</option><option value="AU">Australia</option><option value="AT">Austria</option><option value="AZ">Azerbaijan</option><option value="BS">Bahamas</option><option value="BH">Bahrain</option><option value="BD">Bangladesh</option><option value="BB">Barbados</option><option value="BY">Belarus</option><option value="BE">Belgium</option><option value="BZ">Belize</option><option value="BJ">Benin</option><option value="BM">Bermuda</option><option value="BT">Bhutan</option><option value="BO">Bolivia</option><option value="BQ">Bonaire, Sint Eustatius and Saba</option><option value="BA">Bosnia and Herzegovina</option><option value="BW">Botswana</option><option value="BV">Bouvet Island</option><option value="BR">Brazil</option><option value="IO">British Indian Ocean Territory</option><option value="VG">British Virgin Islands</option><option value="BN">Brunei</option><option value="BG">Bulgaria</option><option value="BF">Burkina Faso</option><option value="BI">Burundi</option><option value="KH">Cambodia</option><option value="CM">Cameroon</option><option value="CA">Canada</option><option value="CV">Cape Verde</option><option value="KY">Cayman Islands</option><option value="CF">Central African Republic</option><option value="TD">Chad</option><option value="CL">Chile</option><option value="CN">China</option><option value="CX">Christmas Island</option><option value="CC">Cocos (Keeling) Islands</option><option value="CO">Colombia</option><option value="KM">Comoros</option><option value="CG">Congo (Brazzaville)</option><option value="CD">Congo (Kinshasa)</option><option value="CK">Cook Islands</option><option value="CR">Costa Rica</option><option value="HR">Croatia</option><option value="CU">Cuba</option><option value="CW">Cura&ccedil;ao</option><option value="CY">Cyprus</option><option value="CZ">Czech Republic</option><option value="DK">Denmark</option><option value="DJ">Djibouti</option><option value="DM">Dominica</option><option value="DO">Dominican Republic</option><option value="EC">Ecuador</option><option value="EG">Egypt</option><option value="SV">El Salvador</option><option value="GQ">Equatorial Guinea</option><option value="ER">Eritrea</option><option value="EE">Estonia</option><option value="ET">Ethiopia</option><option value="FK">Falkland Islands</option><option value="FO">Faroe Islands</option><option value="FJ">Fiji</option><option value="FI">Finland</option><option value="FR">France</option><option value="GF">French Guiana</option><option value="PF">French Polynesia</option><option value="TF">French Southern Territories</option><option value="GA">Gabon</option><option value="GM">Gambia</option><option value="GE">Georgia</option><option value="DE">Germany</option><option value="GH">Ghana</option><option value="GI">Gibraltar</option><option value="GR">Greece</option><option value="GL">Greenland</option><option value="GD">Grenada</option><option value="GP">Guadeloupe</option><option value="GU">Guam</option><option value="GT">Guatemala</option><option value="GG">Guernsey</option><option value="GN">Guinea</option><option value="GW">Guinea-Bissau</option><option value="GY">Guyana</option><option value="HT">Haiti</option><option value="HM">Heard Island and McDonald Islands</option><option value="HN">Honduras</option><option value="HK">Hong Kong S.A.R., China</option><option value="HU">Hungary</option><option value="IS">Iceland</option><option value="IN">India</option><option value="ID">Indonesia</option><option value="IR">Iran</option><option value="IQ">Iraq</option><option value="IE">Ireland</option><option value="IM">Isle of Man</option><option value="IL">Israel</option><option value="IT">Italy</option><option value="CI">Ivory Coast</option><option value="JM">Jamaica</option><option value="JP">Japan</option><option value="JE">Jersey</option><option value="JO">Jordan</option><option value="KZ">Kazakhstan</option><option value="KE">Kenya</option><option value="KI">Kiribati</option><option value="KW">Kuwait</option><option value="KG">Kyrgyzstan</option><option value="LA">Laos</option><option value="LV">Latvia</option><option value="LB">Lebanon</option><option value="LS">Lesotho</option><option value="LR">Liberia</option><option value="LY">Libya</option><option value="LI">Liechtenstein</option><option value="LT">Lithuania</option><option value="LU">Luxembourg</option><option value="MO">Macao S.A.R., China</option><option value="MK">Macedonia</option><option value="MG">Madagascar</option><option value="MW">Malawi</option><option value="MY">Malaysia</option><option value="MV">Maldives</option><option value="ML">Mali</option><option value="MT">Malta</option><option value="MH">Marshall Islands</option><option value="MQ">Martinique</option><option value="MR">Mauritania</option><option value="MU">Mauritius</option><option value="YT">Mayotte</option><option value="MX">Mexico</option><option value="FM">Micronesia</option><option value="MD">Moldova</option><option value="MC">Monaco</option><option value="MN">Mongolia</option><option value="ME">Montenegro</option><option value="MS">Montserrat</option><option value="MA">Morocco</option><option value="MZ">Mozambique</option><option value="MM">Myanmar</option><option value="NA">Namibia</option><option value="NR">Nauru</option><option value="NP">Nepal</option><option value="NL">Netherlands</option><option value="AN">Netherlands Antilles</option><option value="NC">New Caledonia</option><option value="NZ">New Zealand</option><option value="NI">Nicaragua</option><option value="NE">Niger</option><option value="NG">Nigeria</option><option value="NU">Niue</option><option value="NF">Norfolk Island</option><option value="MP">Northern Mariana Islands</option><option value="KP">North Korea</option><option value="NO">Norway</option><option value="OM">Oman</option><option value="PK">Pakistan</option><option value="PW">Palau</option><option value="PS">Palestinian Territory</option><option value="PA">Panama</option><option value="PG">Papua New Guinea</option><option value="PY">Paraguay</option><option value="PE">Peru</option><option value="PH">Philippines</option><option value="PN">Pitcairn</option><option value="PL">Poland</option><option value="PT">Portugal</option><option value="PR">Puerto Rico</option><option value="QA">Qatar</option><option value="RE">Reunion</option><option value="RO">Romania</option><option value="RU">Russia</option><option value="RW">Rwanda</option><option value="BL">Saint Barth&eacute;lemy</option><option value="SH">Saint Helena</option><option value="KN">Saint Kitts and Nevis</option><option value="LC">Saint Lucia</option><option value="MF">Saint Martin (French part)</option><option value="PM">Saint Pierre and Miquelon</option><option value="VC">Saint Vincent and the Grenadines</option><option value="WS">Samoa</option><option value="SM">San Marino</option><option value="ST">Sao Tome and Principe</option><option value="SA">Saudi Arabia</option><option value="SN">Senegal</option><option value="RS">Serbia</option><option value="SC">Seychelles</option><option value="SL">Sierra Leone</option><option value="SG">Singapore</option><option value="SX">Sint Maarten (Dutch part)</option><option value="SK">Slovakia</option><option value="SI">Slovenia</option><option value="SB">Solomon Islands</option><option value="SO">Somalia</option><option value="ZA">South Africa</option><option value="GS">South Georgia and the South Sandwich Islands</option><option value="KR">South Korea</option><option value="SS">South Sudan</option><option value="ES">Spain</option><option value="LK">Sri Lanka</option><option value="SD">Sudan</option><option value="SR">Suriname</option><option value="SJ">Svalbard and Jan Mayen</option><option value="SZ">Swaziland</option><option value="SE">Sweden</option><option value="CH">Switzerland</option><option value="SY">Syria</option><option value="TW">Taiwan</option><option value="TJ">Tajikistan</option><option value="TZ">Tanzania</option><option value="TH">Thailand</option><option value="TL">Timor-Leste</option><option value="TG">Togo</option><option value="TK">Tokelau</option><option value="TO">Tonga</option><option value="TT">Trinidad and Tobago</option><option value="TN">Tunisia</option><option value="TR">Turkey</option><option value="TM">Turkmenistan</option><option value="TC">Turks and Caicos Islands</option><option value="TV">Tuvalu</option><option value="VI">U.S. Virgin Islands</option><option value="UG">Uganda</option><option value="UA">Ukraine</option><option value="AE">United Arab Emirates</option><option value="GB">United Kingdom</option><option value="US">United States</option><option value="UM">United States Minor Outlying Islands</option><option value="UY">Uruguay</option><option value="UZ">Uzbekistan</option><option value="VU">Vanuatu</option><option value="VA">Vatican</option><option value="VE">Venezuela</option><option value="VN">Vietnam</option><option value="WF">Wallis and Futuna</option><option value="EH">Western Sahara</option><option value="YE">Yemen</option><option value="ZM">Zambia</option><option value="ZW">Zimbabwe</option></select> 
+                      </div> 
+                      <div class="form-item form-type-textfield form-item-email"> 
+                       <label for="edit-email">Email <span class="form-required" title="This field is required.">*</span></label> 
+                       <input type="text" id="edit-email" name="email" value="" size="60" maxlength="128" class="form-text required" placeholder="example@abc.com" /> 
+                      </div> 
+                      <div class="phone_field_group"> 
+                       <table border="0"> 
+                        <tbody>
+                         <tr> 
+                          <td class="phone-column-1"><span class="label">Daytime Phone</span> <span class="add_sym">+</span> <input name="phone_country_code" value="" class="phone_country_code" /> <input name="phone_area_code" value="" class="phone_area_code" /> <input name="phone_number" value="" class="phone_number" /></td> 
+                         </tr> 
+                         <tr> 
+                          <td width="100%"> <span class="description">Country Code - Area Code - Phone Number</span> </td> 
+                         </tr> 
+                        </tbody>
+                       </table> 
+                      </div>
+                      <div class="form-item form-type-textarea form-item-comment"> 
+                       <label for="edit-comment">Message </label> 
+                       <div class="form-textarea-wrapper resizable textarea-processed resizable-textarea">
+                        <textarea id="edit-comment" name="comment" cols="60" rows="10" class="form-textarea" placeholder="Grade levels, student requirements, etc."></textarea>
+                        <div class="grippie"></div>
+                       </div> 
+                      </div> 
+                      <input type="submit" id="edit-submit" name="op" value="Submit" class="form-submit" />
+                      <input type="hidden" name="sale_rep_value" value="5993" /> 
+                      <input type="hidden" name="form_build_id" value="form-fX7vNg8QmIhSxFWuXrXgM48-FlCxj0xlTKe0zcPu10k" /> 
+                      <input type="hidden" name="form_id" value="literacy_pro_contact_form" /> 
+                     </div> 
+                    </div>
+                   </form> 
+                  </div> 
+                 </div> 
+                </div> 
+               </div> 
+              </div> 
+              <div class="panels-flexible-row panels-flexible-row-new-1 clearfix literacy-pro-branding-row"> 
+               <div class="inside panels-flexible-row-inside panels-flexible-row-new-1-inside clearfix"> 
+                <div class="panels-flexible-region panels-flexible-region-new-content panels-flexible-region-first panels-flexible-region-last content-bottom"> 
+                 <div class="inside panels-flexible-region-inside panels-flexible-region-new-content-inside panels-flexible-region-inside-first panels-flexible-region-inside-last"> 
+                 </div> 
+                </div> 
+               </div> 
+              </div> 
+              <div class="panels-flexible-row panels-flexible-row-new-main-row panels-flexible-row-last clearfix literacy-pro-menu-row"> 
+               <div class="inside panels-flexible-row-inside panels-flexible-row-new-main-row-inside panels-flexible-row-inside-last clearfix"> 
+                <div class="panels-flexible-region panels-flexible-region-new-contact_us panels-flexible-region-first panels-flexible-region-last literacy-pro-library-contact literacy-pro-block-overview"> 
+                 <div class="inside panels-flexible-region-inside panels-flexible-region-new-contact_us-inside panels-flexible-region-inside-first panels-flexible-region-inside-last"> 
+                 </div> 
+                </div> 
+               </div> 
+              </div> 
+             </div> 
+            </div> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </div>
+     <div id="zone-postscript-wrapper" class="zone-wrapper zone-postscript-wrapper clearfix"> 
+      <div id="zone-postscript" class="zone zone-postscript clearfix container-12"> 
+       <div class="grid-3 region region-postscript-fourth" id="region-postscript-fourth"> 
+        <div class="region-inner region-postscript-fourth-inner"> 
+         <div class="block block-literacy-pro block-literacy-pro-contact-info block-literacy-pro-literacy-pro-contact-info odd block-without-title" id="block-literacy-pro-literacy-pro-contact-info"> 
+          <div class="block-inner clearfix"> 
+           <div class="content clearfix"> 
+            <div class="one-contact">
+             <h2 class="block-title">Have a question or want more information? Get in touch!</h2>
+             <div class="contact-1">
+              <div class="view view-literacy-pro-sales-representative-block view-id-literacy_pro_sales_representative_block view-display-id-block_1 sales-representative view-dom-id-f7d99fbe9eaad110a53ecdf49a4acc9f"> 
+               <div class="view-content"> 
+                <div class="views-row views-row-1 views-row-odd views-row-first views-row-last"> 
+                 <div class="views-field views-field-php"> 
+                  <span class="field-content">
+                   <div class="views-field views-field-title"> 
+                    <span class="field-content bold blue size-13">Scholastic Asia Customer Service</span> 
+                   </div><span class="views-field views-field-field-sale-photo"> <span class="field-content"> <img src="http://d3r7smo9ckww6x.cloudfront.net/styles/sales_representatives_image_thumbnails_lightbox/s3/sales/default-user-icon-profile_1_2.png?itok=lSLE0yZB" width="80" height="75" alt="" /> </span> </span><span class="views-field views-field-field-sale-country"> <span class="field-content"></span></span>
+                   <div class="views-field views-field-field-email-address clear bold"> 
+                    <span class="views-label views-label-field-email-address">Email: </span> 
+                    <span class="field-content"><a href="mailto:slzsales@scholastic.asia">slzsales@scholastic.asia</a></span> 
+                   </div></span> 
+                 </div> 
+                 <div class="contextual-links-wrapper"> 
+                  <div class="contextual-links-wrapper"></div> 
+                 </div> 
+                </div> 
+               </div> 
+              </div>
+             </div>
+             <a href="/en/literacy-pro-library/contact-us" class="contact-us">Contact Us Using Web Form</a>
+            </div> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </div>
+    </div>
+   </section> 
+   <footer id="section-footer" class="section section-footer"> 
+    <div id="zone-footer-wrapper" class="zone-wrapper zone-footer-wrapper clearfix"> 
+     <div id="zone-footer" class="zone zone-footer clearfix container-12"> 
+      <div class="grid-12 region region-footer-first" id="region-footer-first"> 
+       <div class="region-inner region-footer-first-inner"> 
+        <section class="block block-menu block-menu-north-scholastic-singapore block-menu-menu-north-scholastic-singapore odd" id="block-menu-menu-north-scholastic-singapore"> 
+         <div class="block-inner clearfix"> 
+          <h2 class="block-title">Scholastic Global Websites</h2> 
+          <div class="content clearfix"> 
+           <ul class="menu">
+            <li class="first leaf"><a href="http://www.scholastic.com/aboutscholastic/international/">Access Our Global Website</a></li> 
+            <li class="last leaf"><a href="http://scholasticbookaward.asia/">Scholastic Book Awards</a></li> 
+           </ul> 
+          </div> 
+         </div> 
+        </section>
+        <section class="block block-menu block-menu-north-key-solutions block-menu-menu-north-key-solutions even" id="block-menu-menu-north-key-solutions"> 
+         <div class="block-inner clearfix"> 
+          <h2 class="block-title">Key Solutions</h2> 
+          <div class="content clearfix"> 
+           <ul class="menu">
+            <li class="first leaf"><a href="http://auth.grolier.com/login/bookflix/login.php">BookFlix</a></li> 
+            <li class="leaf"><a href="http://auth.grolier.com/login/tfx/login.php">TrueFlix</a></li> 
+            <li class="last leaf"><a href="http://auth.grolier.com/login/go_login_page.html?bffs=N">Grolier Online</a></li> 
+           </ul> 
+          </div> 
+         </div> 
+        </section>
+        <section class="block block-menu block-menu-north-trade-resources block-menu-menu-north-trade-resources odd" id="block-menu-menu-north-trade-resources"> 
+         <div class="block-inner clearfix"> 
+          <h2 class="block-title">Need Help?</h2> 
+          <div class="content clearfix"> 
+           <ul class="menu">
+            <li class="first leaf"><a href="http://north-asia.scholastic.com/en/scholastic-learning-zone/contact-us">Contact Us</a></li> 
+            <li class="last leaf"><a href="https://www.facebook.com/ScholasticAsia">Facebook</a></li> 
+           </ul> 
+          </div> 
+         </div> 
+        </section> 
+       </div> 
+      </div>
+      <div class="grid-12 region region-footer-second" id="region-footer-second"> 
+       <div class="region-inner region-footer-second-inner"> 
+        <div class="block block-block block-102 block-block-102 odd block-without-title" id="block-block-102"> 
+         <div class="block-inner clearfix"> 
+          <div class="content clearfix"> 
+           <div class="footer-second">
+            <a class="policy" href="http://www.scholastic.com/privacy.htm">Privacy Policy</a>•
+            <a class="terms" href="http://www.scholastic.com/terms.htm">Terms of Use</a>•
+            <span class="text">TM &reg; &amp; &copy; 2016, 2012 Scholastic Inc. All Rights Reserved.</span>
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div>
+   </footer> 
+  </div> 
+  <script type="text/javascript" src="http://admin.brightcove.com/js/BrightcoveExperiences.js?o7imis"></script> 
+  <script type="text/javascript" src="http://north-asia.scholastic.com/sites/all/modules/custom/scholastic_global_custom/js/events.js?o7imis"></script> 
+  <script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery(document).ready(function () {  jQuery(".views-widget-sort-order").html("Show"); });
+//--><!]]>
+</script> 
+  <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"53b54da116","applicationID":"5775067","transactionName":"ZwRSZUBUCkJTBkVfW15OcVJGXAtfHRVQUVFvDFFfU1IBQ20LXlJRbxdZVEVqFFBVAA==","queueTime":0,"applicationTime":19036,"atts":"S0NREwhOGUw=","errorBeacon":"bam.nr-data.net","agent":""}</script> 
+  <div id="lightbox2-overlay" style="display: none;"></div> 
+  <div id="lightbox" style="display: none;" class="lightbox2-alt-layout"> 
+   <div id="outerImageContainer" style="color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);">
+    <div id="modalContainer" style="display: none; padding: 10px;"></div>
+    <div id="frameContainer" style="display: none; padding: 10px;"></div>
+    <div id="imageContainer" style="display: none; padding: 10px;">
+     <img id="lightboxImage" alt="" />
+    </div>
+    <div id="loading">
+     <a href="#" id="loadingLink"></a>
+    </div>
+    <div id="bottomNav">
+     <a id="bottomNavClose" title="Close" href="#" style="color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);"></a>
+     <a id="bottomNavZoom" href="#" style="bottom: 10px; right: 10px;"></a>
+     <a id="bottomNavZoomOut" href="#" style="bottom: 10px; right: 10px;"></a>
+    </div>
+   </div> 
+   <div id="imageDataContainer" class="clearfix" style="color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);"> 
+    <div id="imageData">
+     <div id="hoverNav">
+      <a id="prevLink" title="Previous" href="#" style="padding-top: 10px;"></a>
+      <a id="nextLink" title="Next" href="#" style="padding-top: 10px;"></a>
+     </div>
+     <div id="imageDetails">
+      <span id="caption"></span>
+      <span id="numberDisplay"></span>
+      <a id="lightshowPause" title="Pause Slideshow" href="#" style="display: none;"></a>
+      <a id="lightshowPlay" title="Play Slideshow" href="#" style="display: none;"></a>
+     </div>
+    </div> 
+   </div> 
+  </div>
+  <div class="back-to-top" style="display: none;"></div>
+  <!--Begin comScore Tag-->
+  <script>  var _comscore = _comscore || [];
+  _comscore.push({ c1: "2", c2: "8747628" });
+  (function() {
+    var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+    s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+    el.parentNode.insertBefore(s, el);
+  })();</script>
+  <!--End comScore Tag-->
+  <div id="window-resizer-tooltip">
+   <a href="#" title="Edit settings"></a>
+   <span class="tooltipTitle">Window size: </span>
+   <span class="tooltipWidth" id="winWidth"></span> x 
+   <span class="tooltipHeight" id="winHeight"></span>
+   <br />
+   <span class="tooltipTitle">Viewport size: </span>
+   <span class="tooltipWidth" id="vpWidth"></span> x 
+   <span class="tooltipHeight" id="vpHeight"></span>
+  </div>
+ </body>
+</html>
