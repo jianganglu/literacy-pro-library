@@ -1,0 +1,27 @@
+.result-search {
+	float: left;
+	width: 100%;
+	font-size: 18px;
+	font-weight: bold;
+	color: #ff2600;
+  display: none;
+}
+#views-form-admin-views-node-system-1 .result-search {
+  display: block !important;
+  padding: 10px 0px 20px 0px;
+}
+#scholastic-footer-global {
+  background: none repeat scroll 0 0 #e3e0d1;
+  height: 51px;
+  width: 100%;  
+}
+.scholastic-footer-global {
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+  width: 960px;  
+}
+.scholastic-footer-global p {
+  margin: 0 !important;
+  padding: 18px 0;  
+}

@@ -1,0 +1,475 @@
+/* Font Face
+__________________________________________________*/
+
+@font-face {
+  font-family: 'Lato';
+  src:  url('fonts/Lato.eot');
+  src:  url('fonts/Lato.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Lato.ttf') format('truetype');
+}
+
+body.see-about-page {
+  font: normal 13px/1.5em arial, tahoma, sans-serif;
+}
+body.see-about-page .section-header .block-global-about {
+  height: 70px;
+}
+body.see-about-page.asia-about-scholastic .section-header .block-global-about {
+  height: auto;
+  padding-top: 15px;
+  padding-left: 10px;
+}
+body.see-about-page.emea-la-pr-about-scholastic .section-header .block-global-about {
+  height: auto;
+  padding-top: 25px;
+  padding-left: 10px;
+}
+body.see-about-page .section-header .block-global-about h2 {
+  font: bold 42px/42px arial, Helvetica, sans-serif;
+  color: #12577e;
+  padding: 0;
+  margin: 0;
+}
+body.see-about-page .section-header .block-global-about p {
+  float: left;
+  margin: 10px 0 0;
+  padding: 0;
+  font: normal 14px/1.3em arial, Helvetica, sans-serif;
+  color: #717171;
+}
+body.see-about-page #section-content {}
+body.see-about-page #section-content #zone-content {
+  width: 940px;
+  background: #FFF;
+  padding: 0;
+}
+body.see-about-page.domain-see-ws-sandbox-com #section-content #zone-content {
+  padding: 20px 10px;
+}
+body.see-about-page #section-content #zone-content .region-content {
+  padding: 20px 10px;
+  width: 920px !important;
+  margin: 0;
+}
+body.see-about-page #section-content #zone-content .region-content .panels-flexible-row {
+  margin: 0 0 20px;
+  padding: 0;
+}
+body.see-about-page #section-content #zone-content .region-content .panels-flexible-row h2.pane-title,
+body.see-about-page #section-content #zone-content .region-content .panels-flexible-row h2 {
+  font: bold 20px/1em 'Lato', arial, tahoma, sans-serif;
+  margin: 0 0 15px;
+  text-transform: uppercase;
+  color: #000;
+  padding: 0;
+  text-shadow: none;
+  word-spacing: 0px;
+  letter-spacing: -1px;
+  background: none;
+  border: none;
+}
+body.see-about-page #section-content #zone-content .region-content .panels-flexible-row h3 {
+  font: bold 16px/20px 'Lato', tahoma;
+  color: #333;
+  text-transform: uppercase;
+  margin: 0 0 20px;
+  background: none;
+  border: none;
+  text-shadow: none;
+}
+body.see-about-page #section-content #zone-content .region-content .panels-flexible-row.panels-flexible-row-first {}
+body.see-about-page #section-content #zone-content .region-content .panels-flexible-row.panels-flexible-row-last {
+  margin-bottom: 0;
+}
+body.see-about-page h1#page-title {
+  display: none;
+}
+body.see-about-page #section-content #zone-content .region-content table,
+body.see-about-page #section-content #zone-content .region-content table tr,
+body.see-about-page #section-content #zone-content .region-content table tr td {
+  margin: 0;
+  padding: 0;
+  vertical-align: top;
+}
+body.see-about-page #section-content #zone-content .region-content table {
+  border: none;
+}
+body.see-about-page #section-content #zone-content .region-content .views_slideshow_cycle_main {
+  width: 920px;
+  height: 305px;
+}
+body.see-about-page #section-content #zone-content .region-content .views_slideshow_cycle_main .views-slideshow-cycle-main-frame-row {}
+body.see-about-page #section-content #zone-content .region-content .views_slideshow_cycle_main .views-slideshow-cycle-main-frame-row .views-field-field-image-asset {
+  width: 920px;
+  height: 300px;
+}
+body.see-about-page #section-content #zone-content .region-content .views_slideshow_cycle_main .views-slideshow-cycle-main-frame-row .views-field-field-image-asset img {}
+body.see-about-page .views-slideshow-controls-bottom .views-slideshow-pager-field-item .views-content-title {
+  background: none;
+}
+body.see-about-page .global-about-region-top .view-global-about-us {
+  border: 1px solid #CCCCCC;
+  border-radius: 10px;
+  height: 305px;
+  overflow: hidden;
+  position: relative;
+  width: 918px !important;    
+}
+body.see-about-page .global-about-region-top .view-global-about-us .views-slideshow-controls-bottom {
+  bottom: 5px !important;
+  position: absolute !important;
+  right: 5px !important;
+  width: 45px !important;
+  z-index: 20 !important;
+}
+body.see-about-page .global-about-region-top .view-global-about-us .views-slideshow-controls-bottom .widget_pager_bottom {
+  margin: 0 auto;
+  width: 65px;
+}
+body.see-about-page .global-about-region-top .view-global-about-us .views-slideshow-controls-bottom .widget_pager_bottom .views-field-title {
+  background: url("http://scholasticearlyenglish.com/sites/all/themes/scholastic_see/css/images/navSlide.png") no-repeat scroll left top rgba(0, 0, 0, 0);
+  border-radius: 10px;
+  float: left;
+  height: 13px;
+  margin: 0 1px;
+  text-indent: -9999px;
+  width: 13px;
+  font-size: 0px;
+  color: transparent;
+}
+body.see-about-page .global-about-region-top .view-global-about-us .views-slideshow-controls-bottom .widget_pager_bottom .active .views-field-title {
+  background: url("http://scholasticearlyenglish.com/sites/all/themes/scholastic_see/css/images/navSlide2.png") no-repeat scroll left top rgba(0, 0, 0, 0) !important;
+} 
+body.see-about-page #section-content #zone-content .region-content table:hover td {
+  background: none;
+}
+body.see-about-page #section-content #zone-content .region-content #global-ab-tab4 {
+  background: url("http://scholasticearlyenglish.com/sites/all/themes/scholastic_see/css/images/bg-10.png") no-repeat scroll left bottom rgba(0, 0, 0, 0);
+  border: 1px solid #CCCCCC;
+  border-radius: 10px;
+  margin: 0 0 20px;
+  padding: 20px 10px 30px 10px;
+  width: auto;
+  display: block;
+}
+body.see-about-page #global-ab-tab4 ul {
+  padding: 0 !important;
+  float: left;
+  width: 530px;
+}
+body.see-about-page #global-ab-tab4 ul li {
+  border-top: 1px solid #CCCCCC;
+  display: block;
+  margin: 0;
+  padding: 10px 0 !important;
+  float: left;
+  width: 100%;
+}
+body.see-about-page #global-ab-tab4 ul li p {
+  border-left: 3px solid #218ED1;
+  color: #555555;
+  font: 13px/1em arial;
+  padding: 0 0 0 10px;
+  text-decoration: none;
+  margin: 0 !important;
+}
+body.see-about-page #global-ab-tab4 ul li p:hover {
+  border-left: 3px solid #FF0000 !important;
+}
+body.see-about-page #global-ab-tab3 {
+  border: none !important;
+}
+/**
+ * Tung CSS
+ */
+body.see-about-page .global-about-region-left {
+  width: 618px;
+  float: left;
+}
+body.see-about-page .global-about-region-right {
+  border: 1px solid #CCCCCC;
+    border-radius: 5px;
+    box-shadow: 0 3px 6px #CCCCCC;
+    display: block;
+    float: right;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    width: 290px !important;
+}
+body.see-about-page #page .global-about-region-right .inside.panels-flexible-region-inside {
+  background: none repeat scroll 0 0 #F1F1F1;
+    border-radius: 5px;
+    min-height: 1413px;
+    padding: 15px 10px;
+}
+/*Awards*/
+body.see-about-page .global-about-region-right .global-about-right-top {
+  float: left;
+}
+body.see-about-page .global-about-region-right .pane-global-about-us h2 {
+  background: none !important;
+    border: none !important;
+    color: #171717;
+    font: bold 16px/20px 'Lato',tahoma !important;
+    margin: 0 0 20px !important;
+    padding: 0 !important;
+    text-align: left;
+    text-transform: uppercase;
+}
+body.see-about-page .global-about-region-right .global-about-right-top .item-list ul {
+  background-color: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    border-radius: 5px !important;
+    float: left;
+    margin: 0 0 20px;
+    padding: 20px 10px 30px;
+}
+body.see-about-page .global-about-region-right .global-about-right-top .item-list ul li {
+  border-radius: 0 !important;
+  float: left;
+    margin: 0 0 10px 0 !important;
+}
+body.see-about-page .global-about-region-right .global-about-right-top .item-list ul li .views-field-field-event-start-date {
+  float: left;
+    margin-right: 10px;
+}
+body.see-about-page .global-about-region-right .global-about-right-top .item-list ul li .views-field-field-event-start-date span.date-display-single {
+  border: 1px solid #CCCCCC;
+  font: 13px/18px arial !important;
+    padding: 3px 8px;
+}
+body.see-about-page .global-about-region-right .global-about-right-top .item-list ul li .views-field-body {
+  color: #555555;
+    float: left;
+    font: 13px/18px arial !important;
+    width: 192px;
+}
+
+/*Contribution to Education Worldwide*/
+body.see-about-page .global-about-region-right .global-about-right-bottom {
+  float: left;
+}
+body.see-about-page .global-about-region-right .global-about-right-bottom h2 {
+  background: none !important;
+    border: none !important;
+    color: #171717;
+    font: bold 16px/20px 'Lato',tahoma !important;
+    margin: 0 0 20px !important;
+    padding: 0 !important;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+body.see-about-page .global-about-row-left {}
+body.see-about-page .global-about-row-left .global-about-region-left {}
+body.see-about-page .global-about-row-left .global-about-region-left .view-content {}
+body.see-about-page .global-about-row-left .global-about-region-left .view-content header {
+  display: none;
+}
+body.see-about-page #section-content #zone-content .region-content .global-about-row-left .global-about-region-left #global-ab-tab1,
+body.see-about-page #section-content #zone-content .region-content .global-about-row-left .global-about-region-left #global-ab-tab2,
+body.see-about-page #section-content #zone-content .region-content .global-about-row-left .global-about-region-left #global-ab-tab3 {
+  margin-bottom: 20px;
+}
+body.see-about-page #section-content #zone-content .region-content .global-about-row-left .global-about-region-left #global-ab-tab1 {}
+body.see-about-page #section-content #zone-content .region-content .global-about-row-left .global-about-region-left #global-ab-tab1 .td1 {
+  padding-left: 20px;
+}
+body.see-about-page #section-content #zone-content .region-content .global-about-row-left .global-about-region-left #global-ab-tab1 .td2 {
+  margin: 3px;
+  background: #F2F0F0;
+  text-align: center;
+  padding: 20px 0 6px;
+  width: 124px;
+  height: 142px;
+}
+body.see-about-page .global-about-row-left .global-about-region-left #global-ab-tab1 table .td2:hover {
+  background: #F2F0F0;
+}
+body.see-about-page #section-content #zone-content .region-content .global-about-row-left .global-about-region-left #global-ab-tab1 .td2 p {
+  margin: 0;
+}
+body.see-about-page .global-about-row-left .global-about-region-left #global-ab-tab1 .td2 .name {
+  margin: 0 0 2px;
+  font: 13px/17px Verdana, Helvetica, Arial, sans-serif;
+}
+body.see-about-page .global-about-row-left .global-about-region-left #global-ab-tab1 .td2 .ceo {
+  font: normal 11px/11px arial, tahoma, sans-serif;
+}
+body.see-about-page .global-about-row-left .global-about-region-right {}
+
+body.see-about-page .global-about-row-left .global-about-region-left h2.node-title a {
+  font: normal 26px/1em 'TitilliumText22L-600wt', arial, tahoma, sans-serif;
+  color: #333;
+}
+body.see-about-page .global-about-region-right .global-about-right-bottom h2.node-title {
+  display: none;
+}
+body.see-about-page .global-about-region-right .global-about-right-bottom .item-list ul {
+  margin: 0;
+  padding: 0;
+}
+body.see-about-page .global-about-region-right .global-about-right-bottom .item-list ul li {
+    margin: 0 0 20px !important;
+    overflow: hidden;
+}
+body.see-about-page .global-about-region-right .global-about-right-bottom .item-list ul li table {
+  border: none;
+  margin: 0;
+  width: 100% !important;
+}
+body.see-about-page .global-about-region-right .global-about-right-bottom .item-list ul li .table1,
+body.see-about-page .global-about-region-right .global-about-right-bottom .item-list ul li .table2 {
+  background-color: #FFFFFF;
+  border: 1px solid #CCCCCC;
+  border-radius: 5px !important;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  margin: 0 0 20px;
+  padding: 20px 10px 30px;
+}
+body.see-about-page .global-about-region-right .global-about-right-bottom .item-list ul li table td,
+body.see-about-page .global-about-region-right .global-about-right-bottom .item-list ul li table th {
+  padding: 0;
+  text-align: center;
+}
+body.see-about-page .global-about-region-right .global-about-right-bottom .item-list ul li table td p {
+  color: #555555;
+    font: italic 12px/18px arial;
+    margin: 0;
+    text-align: left;
+}
+body.see-about-page .global-about-region-right .global-about-right-bottom .item-list ul li table td img {
+  border: medium none !important;
+  margin-bottom: 20px;
+    max-height: 82px;
+    max-width: 170px;
+}
+body.see-about-page .global-about-region-right .global-about-right-bottom .item-list ul li table tr:hover td,
+body.see-about-page .global-about-region-right .global-about-right-bottom .item-list ul li table tr.even:hover td.active,
+body.see-about-page .global-about-region-right .global-about-right-bottom .item-list ul li table tr.odd:hover td.active {
+  background: none;
+} 
+/**
+ * CSS
+ */
+ body.see-about-page .panels-flexible-region-197-author_activities.global-about-region-left
+{
+  width: 610px;
+  margin: 0 10px 0 0;
+  padding: 0px;
+  overflow: hidden;
+}
+body.see-about-page #block-system-main .panels-flexible-197-inside {
+  width: 940px !important;
+}
+body.see-about-page #views_slideshow_cycle_main_see_rotating_banner-block_3 {
+  width: 100%;
+  height: 305px;
+  float: left;
+  overflow: hidden;
+  background: #FFF;
+  border-radius: 6px;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px; 
+}
+body.see-about-page #node-page-10205  .field-name-body #global-ab-tab1 {
+  border: 1px solid #ccc !important;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  display:block;
+  -webkit-border-radius: 5px;
+  width:auto !important;
+}
+body.see-about-page #node-page-10205  #global-ab-tab1  h3 .field-content {
+  font: normal 20px/18px arial, tahoma, sans-serif;
+  text-decoration: none;
+  color: #333;
+}
+body.see-about-page #node-page-10205 #global-ab-tab1 .td1 {
+  padding: 20px 10px 20px 20px;
+}
+body.see-about-page #node-page-10205 #global-ab-tab1 .td2 {
+  float: left;
+  margin: 3px;
+  background: #F2F0F0;
+  text-align: center;
+  padding: 6px 0;
+  width: 124px;
+  height: 142px;
+}
+body.see-about-page table  img {
+  margin: -10px 0 0;
+  border-style:none !important;
+  border-radius: 5px ;
+}
+body.see-about-page #global-ab-tab1
+{
+  margin: 0 0 30px;
+}
+body.see-about-page #global-ab-tab2 {
+  overflow: hidden;
+  margin: 0 0 70px;
+}
+body.see-about-page #global-ab-tab2 .td1 {
+  float: left;
+  width: 48%;
+  font: normal 12px/18px arial, tahoma, sans-serif;
+  color: #555;
+  padding:0;
+}
+body.see-about-page #global-ab-tab2 .td2 {
+  margin-top:34px;
+  float: right;
+  width: 48%;
+  margin: 0;
+  border-radius: 5px;
+  padding:0;
+  overflow: hidden;
+}
+body.see-about-page #node-page-10205 h2.node-title {
+  font: bold 20px/1em 'Lato', tahoma;
+  margin: 0 0 15px;
+  text-transform: uppercase;
+}
+body.see-about-page .pane-global-about-us .view-global-about-us li {
+  margin:0 !important;
+  padding:0 !important;
+}
+body.see-about-page #global-ab-tab3 .td2 {
+  float: left;
+  width: 48%;
+  margin: -10px 0 0;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-top:0
+}
+body.see-about-page #global-ab-tab3 .td1 {
+  padding:0;
+  float: right;
+  width: 48%;
+  font: normal 12px/18px arial, tahoma, sans-serif;
+  color: #555;
+}
+body.see-about-page table h3 span.field-content {
+  font: normal 16px/18px arial, tahoma, sans-serif;
+  color: #333;
+  font-weight:normal;
+  text-transform: none;
+}
+body.see-about-page #node-page-10205 h2 a {
+  font: bold 20px/1em 'Lato', tahoma;
+  margin: 0 0 15px;
+  text-transform: uppercase;
+  color:black;
+}
+body.see-about-page #node-page-10205 h2 a:hover {
+  text-decoration:none;
+}
+body.see-about-page  .block-scholastic-global-about-us {
+  float: left;
+}
+/* Disable First Sidebar EMEA ABOUT Page */
+body.emea-la-pr-about-scholastic .region-sidebar-first { display: none; }
