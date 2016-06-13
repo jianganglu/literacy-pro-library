@@ -802,7 +802,7 @@ body.literacy-pro-library.domain-uk-scholastic-com .zone-footer-wrapper .region-
 }
 /*-----Contact Block-----*/
 body.literacy-pro-library .section-content .zone-postscript-wrapper .zone-postscript {
-  background: url("../img/contact-bg.jpg") repeat-x scroll 0 bottom transparent;
+  /*background: url("../img/contact-bg.jpg") repeat-x scroll 0 bottom transparent;*/
   float: left;
   margin: 0 auto;
   min-height: 97px;
